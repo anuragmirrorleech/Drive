@@ -13,8 +13,8 @@ from bot.config import BotCommands
 from bot.helpers.utils import CustomFilters
 
 
-OAUTH_SCOPE = "https://www.googleapis.com/auth/drive"
-REDIRECT_URI = "https://localhost:1"
+OAUTH_SCOPE = "https://accounts.google.com/o/oauth2/auth"
+REDIRECT_URI = "http://localhost"
 
 flow = None
 

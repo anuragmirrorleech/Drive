@@ -13,7 +13,7 @@ from bot.config import BotCommands
 from bot.helpers.utils import CustomFilters
 
 
-OAUTH_SCOPE = "https://accounts.google.com/o/oauth2/auth"
+OAUTH_SCOPE = "https://www.googleapis.com/auth/drive"
 REDIRECT_URI = "http://localhost"
 G_DRIVE_DIR_MIME_TYPE = "application/vnd.google-apps.folder"
 G_DRIVE_CLIENT_ID = "359799130782-d5hp4g36v8hct02iel924f02qts7a8fk.apps.googleusercontent.com"
